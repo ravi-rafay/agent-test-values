@@ -8,7 +8,7 @@ image:
   repository: nginx
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "1"
+  tag: "1.10"
 
 nameOverride: ""
 fullnameOverride: ""
@@ -28,7 +28,7 @@ configmaps:
     JJJ: jjj
     NAME: devx-service-ai
     XYZ: trigger
-    okie: testy
+    # okie: testy
 
 service:
   type: ClusterIP
